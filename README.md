@@ -14,7 +14,9 @@
 6. Persistence of artifacts & summary statistics
 
 ## Part 2: Architecture Solution
-[WIP]
+
+- Refer to `AWS_architecture_diagram.png`
+![AWS Architecture Diagram](AWS_architecture_diagram.png)
 
 ## How to run
 1. Clone the repository to your local machine.
