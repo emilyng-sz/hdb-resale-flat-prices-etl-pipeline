@@ -21,5 +21,4 @@
 ## How to run
 1. Clone the repository to your local machine.
 2. Ensure you have Python 3.11+ installed.
-3. Download the required data files from https://data.gov.sg/collections/189/view and place them in the `data/raw` directory.
-4. Run the `etl_pipeline.ipynb` notebook to execute the ETL pipeline and generate the processed data artifacts.
+3. Run the `etl_pipeline.ipynb` notebook. The first code cell downloads every data.gov.sg collection-189 dataset whose coverage window overlaps `start_month`-`end_month` (`config/pipeline_config.yaml`) into `data/raw` automatically — no manual download step needed. Files already present in `data/raw` are left as-is and not re-downloaded.
