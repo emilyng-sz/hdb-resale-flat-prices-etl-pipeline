@@ -1,7 +1,7 @@
 # HDB Data Engineer Role Technical Test Submission
 
 ## Part 1: ETL Pipeline
-- Refer to `etl_pipeline.ipynb` for the complete ETL pipeline implementation, which includes the following steps:
+- Refer to `Part 1 ETL Pipeline/etl_pipeline.ipynb` for the complete ETL pipeline implementation, which includes the following steps:
 
 1. Configuration & environment setup
 2. Raw ingestion and schema harmonization
@@ -15,8 +15,8 @@
 
 ## Part 2: Architecture Solution
 
-- Refer to `AWS_architecture_diagram.png`
-![AWS Architecture Diagram](AWS_architecture_diagram.png)
+- Refer to `Part 2 Architecture/AWS_architecture_diagram.png`
+![AWS Architecture Diagram](Part 2 Architecture/AWS_architecture_diagram.png)
 
 ## How to run
 1. Clone the repository to your local machine.
